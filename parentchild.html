@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>margin</title>
+    <style rel="stylesheet" type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+      }
+      div#parent {
+        margin: 10px 20px;
+        background: yellow;
+        border: 1px solid gold;
+      }
+      div#child {
+        margin: 20px;
+        background: lightyellow;
+        border: 1px solid gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="child"></div>
+    </div>
+  </body>
+</html>
